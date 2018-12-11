@@ -7,7 +7,7 @@
 
 基于 Vue, iView, Axios, Mock 企业级后台管理系统最佳实践。
 
-调取pc连接的摄像头，实现拍照。由于base64太大，故转为blob上传到服务器，返回图片链接显示。
+/views/user/userAdd,调取pc连接的摄像头，实现拍照。由于base64太大，故转为blob上传到服务器，返回图片链接显示。
 
 ### 技术栈
 
@@ -135,7 +135,7 @@ app(Mock, qs)
 7, 如需使用 vuex 存储状态请阅读 views/common/partials/Sidebar.vue 组件和 store 目录源码
 
 
-### 注意点
+### 注意点,路径
 如果项目不是放在服务器根目录，而是在其中一个文件夹如admin目录下，这时webpack打包需要调整static路径，
 以免有找不到资源的问题，默认是'/'路径
 修改如下：
